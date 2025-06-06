@@ -1,4 +1,4 @@
-const API_KEY = '52a78f08195bba9992b72eba130d5924'; // Replace with your TMDB key
+const API_KEY = '52a78f08195bba9992b72eba130d5924'; // TMDB  API key
 const API_URL = `https://api.themoviedb.org/3`;
 let score = 0;
 let correctTitle = "";
