@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess the Movie</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="instructions-box">
+    <details>
+      <summary>How to Play</summary>
+      <p>1. Watch the 60s movie trailer.<br>
+         2. Pick the correct movie title.<br>
+         3. Green = correct (+3 points).<br>
+         4. Red = wrong. Try again!</p>
+    </details>
+  </div>
+
+  <div class="game-container">
+    <div id="video-container"></div>
+    <div id="choices"></div>
+    <p id="score">Score: 0</p>
+    <button id="next-btn">Next Movie</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
